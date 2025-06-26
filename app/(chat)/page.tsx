@@ -6,7 +6,7 @@ import { Session } from '@/lib/types'
 import { getMissingKeys } from '../actions'
 
 export const metadata = {
-  title: 'Next.js AI Chatbot'
+  title: 'Privacy Policy AI Chatbot'
 }
 
 export default async function IndexPage() {
@@ -14,9 +14,14 @@ export default async function IndexPage() {
   const session = (await auth()) as Session
   const missingKeys = await getMissingKeys()
 
+  const initialAIState = {
+    chatId: id,
+    messages: []
+  }
+
   return (
-    <AI initialAIState={{ chatId: id, messages: [] }}>
-      <Chat id={id} session={session} missingKeys={missingKeys} />
+    <AI initialAIState={initialAIState}>
+      <Chat id={id} session={session} missingKeys={missingKeys}   />
     </AI>
   )
 }

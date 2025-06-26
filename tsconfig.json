@@ -15,7 +15,9 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@shadcn/ui/*": ["components/shadcn/ui/*"],
+      "@shadcn/utils/*": ["lib/shadcn/*"]
     },
     "plugins": [
       {

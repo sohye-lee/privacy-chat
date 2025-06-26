@@ -46,6 +46,7 @@ export default async function ChatPage({ params }: ChatPageProps) {
   if (chat?.userId !== session?.user?.id) {
     notFound()
   }
+ 
 
   return (
     <AI initialAIState={{ chatId: chat.id, messages: chat.messages }}>
@@ -55,6 +56,6 @@ export default async function ChatPage({ params }: ChatPageProps) {
         initialMessages={chat.messages}
         missingKeys={missingKeys}
       />
-    </AI>
+     </AI>
   )
 }

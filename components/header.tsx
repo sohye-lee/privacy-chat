@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils'
 import { auth } from '@/auth'
 import { Button, buttonVariants } from '@/components/ui/button'
 import {
+  IconEdit,
   IconGitHub,
   IconNextChat,
   IconSeparator,
@@ -15,6 +16,8 @@ import { SidebarMobile } from './sidebar-mobile'
 import { SidebarToggle } from './sidebar-toggle'
 import { ChatHistory } from './chat-history'
 import { Session } from '@/lib/types'
+import { User } from 'lucide-react'
+import { SidebarTrigger } from './ui/sidebar'
 
 async function UserOrLogin() {
   const session = (await auth()) as Session
@@ -33,7 +36,7 @@ async function UserOrLogin() {
           {/* <IconNextChat  className="size-6 mr-2 dark:hidden" inverted />
           <IconNextChat className="hidden size-6 mr-2 dark:block" /> */}
             <Button variant="link"   className="-ml-2">
-            <span>Privacy Policy Assistant</span>
+            <span>PrivacyHub</span>
           </Button>
         </Link>
       )}
@@ -62,15 +65,15 @@ export async function Header() {
           {userOrLogin}
         </React.Suspense>
       </div>
-      <div className="flex items-center justify-end space-x-2">
+      {/* <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
           href="https://github.com/vercel/nextjs-ai-chatbot/"
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
+          <User className="mr-2" />
+          <span className="hidden ml-2 md:flex">Login</span>
         </a>
         <a
           href="https://vercel.com/templates/Next.js/nextjs-ai-chatbot"
@@ -81,6 +84,9 @@ export async function Header() {
           <span className="hidden sm:block">Deploy to Vercel</span>
           <span className="sm:hidden">Deploy</span>
         </a>
+      </div> */}
+      <div className="md:hidden">
+        <SidebarTrigger />
       </div>
     </header>
   )

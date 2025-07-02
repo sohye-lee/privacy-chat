@@ -2,7 +2,7 @@
 
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 
-import { Sidebar } from '@/components/sidebar'
+import { AppSidebar } from '@/components/sidebar'
 import { Button } from '@/components/ui/button'
 
 import { IconSidebar } from '@/components/ui/icons'
@@ -24,7 +24,7 @@ export function SidebarMobile({ children }: SidebarMobileProps) {
         side="left"
         className="inset-y-0 flex h-auto w-[300px] flex-col p-0"
       >
-        <Sidebar className="flex">{children}</Sidebar>
+        <AppSidebar></AppSidebar>
       </SheetContent>
     </Sheet>
   )

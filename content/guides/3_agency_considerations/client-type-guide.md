@@ -30,7 +30,7 @@ Use this guide to adjust your privacy compliance process by industry and client 
 
 ---
 
-## 🛍️ B2C (Business to Consumer)
+## B2C (Business to Consumer)
 
 ### Common Traits
 - Direct customer data collection (emails, shipping address, purchase info).
@@ -51,7 +51,7 @@ Use this guide to adjust your privacy compliance process by industry and client 
 
 ---
 
-## ❤️ Nonprofits
+## Nonprofits
 
 ### Common Traits
 - Donation forms, volunteer sign-ups, event registrations.
@@ -69,7 +69,7 @@ Use this guide to adjust your privacy compliance process by industry and client 
 
 ---
 
-## 🎓 Educational Institutions
+## Educational Institutions
 
 ### Common Traits
 - Serve students, parents, teachers; collect student names, emails, age, grades.
@@ -91,7 +91,7 @@ Use this guide to adjust your privacy compliance process by industry and client 
 
 ---
 
-## 🏥 Healthcare-Related Clients
+## Healthcare-Related Clients
 
 ### Common Traits
 - Appointment forms, patient info, health-related content.
@@ -112,7 +112,7 @@ Use this guide to adjust your privacy compliance process by industry and client 
 
 ---
 
-## 📊 Example Comparison Table
+## Example Comparison Table
 
 | Feature                       | B2B         | B2C         | Nonprofit    | Education     | Healthcare    |
 |------------------------------|-------------|-------------|--------------|---------------|--------------|
@@ -133,7 +133,7 @@ Use this guide to adjust your privacy compliance process by industry and client 
 
 ---
 
-## 🔗 References
+## References
 
 - [Data Privacy Compliance Guide for Agencies – Termly](https://termly.io/resources/guides/compliance-guide-for-agencies/)  
 - [CCPA Full Text (California Civil Code §1798.100)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.100)  
